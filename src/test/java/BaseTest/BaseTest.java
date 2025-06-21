@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeSuite;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
+import AbstractComp.AbstractComponents;
 import Resources.ConfigReader;
 import Resources.ReportManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -37,6 +38,9 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void Setup(Method method) {
+    	
+    	 AbstractComponents.testFolderName = method.getName();
+    	
         try {
             Properties prop = ConfigReader.globalProp();
 
@@ -58,7 +62,8 @@ public class BaseTest {
             System.out.println("Exception in setup(): " + e.getMessage());
             e.printStackTrace();
             throw new SkipException("Skipping test due to setup failure: " + e.getMessage());
-        }
+        } 
+        
     }
 
     @AfterMethod(alwaysRun = true)

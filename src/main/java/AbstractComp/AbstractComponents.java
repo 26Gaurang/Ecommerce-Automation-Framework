@@ -2,7 +2,9 @@ package AbstractComp;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
@@ -18,6 +20,7 @@ public class AbstractComponents {
 
 	
 	protected WebDriver driver;
+	public static String testFolderName;
 	
 	public AbstractComponents(WebDriver driver) {	
 		this.driver = driver;
@@ -49,11 +52,22 @@ public class AbstractComponents {
 		
 		try {
 			
-			//String folderPath = "screenshots/" + folderName;
-		   // new File(folderPath).mkdirs(); // creates folder if not exists
-			
-			FileUtils.copyFile(src,new File("C:\\Users\\customer\\eclipse-workspace\\Ecommerce\\screenshots\\"+msg+".jpg"));
-			
+			 // Generate timestamp
+            String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+
+            // Base screenshot directory in Jenkins-safe path
+            String baseDir = System.getProperty("user.dir") + "/screenshots";
+
+            // Create a folder once per test (testFolderName should be set in @BeforeMethod)
+            String folderPath = baseDir + "/" + testFolderName;
+            new File(folderPath).mkdirs();  // create if not exists
+
+            // Final screenshot path
+            File dest = new File(folderPath + "/" + msg + "_" + timestamp + ".jpg");
+
+            // Save file
+            FileUtils.copyFile(src, dest);
+            
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
