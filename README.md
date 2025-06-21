@@ -41,31 +41,13 @@ A complete Selenium TestNG framework for automating the end-to-end flow of an e-
 3. Update DB credentials in: /src/test/java/utils/DBConfig.java
 4. Run test suite via TestNG XML
 
-🧠 Folder Structure
-
-EcommerceTestAutomation/
-├── src/
-│   ├── main/java/
-│   │   ├── pageObjects/
-│   │   └── abstractComponents/
-│   └── test/java/
-│       ├── base/
-│       ├── testClasses/
-│       └── utils/
-├── screenshots/ (ignored from Git)
-├── pom.xml
-├── testng.xml
-├── .gitignore
-└── README.md
 
 
-📬 Author
+## 📬 Author
 
-Gaurang Gajjar
-
-📧 gauranggajjar26@gmail.com
-
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/gaurang-gajjar-504336242/)
+- Gaurang Gajjar
+- 📧 gauranggajjar26@gmail.com
+- 🔗 [LinkedIn Profile](https://www.linkedin.com/in/gaurang-gajjar-504336242/)
 
 ### 🚀 What’s Next?
 
