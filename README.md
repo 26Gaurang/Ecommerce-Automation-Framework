@@ -6,16 +6,19 @@ A complete Selenium TestNG framework for automating an e-commerce website using:
 - ✅ TestNG + Data Providers
 - ✅ SQL integration for data-driven testing
 - ✅ Page Object Model (POM)
+- ✅ Abstract Components for reusable actions
 - ✅ Screenshot capture + custom reports
 - ✅ Independent test flows (Register User, Buy Single Product, Buy Multiple Products)
 
 ## 🚀 Tech Stack
-- Java 17+
+- Java 
 - Selenium WebDriver
 - TestNG
 - MySQL
 - Maven
 - Eclipse
+- Git
+- Jenkins (WIP)
 
 ## ✅ Test Flows
 1. User Registration
@@ -24,21 +27,29 @@ A complete Selenium TestNG framework for automating an e-commerce website using:
 
 ## 📦 Folder Structure
 src/
-main/java/
-pageObjects/
-abstractComponents/
-test/java/
-base/
-tests/
-utils/
+├── main/
+│ └── java/
+│ ├── pageObjects/
+│ └── abstractComponents/
+└── test/
+└── java/
+├── base/
+├── tests/
+└── utils/
 
 ## 📸 Reports & Screenshots
 - Screenshots captured after key actions
-- Custom reports generated post execution
+- Extent reports generated post execution
 
 ## ⚙️ How to Run
 - Clone repo
 - Configure MySQL DB
 - Run `testng.xml`
+
+📬 Author
+Gaurang Gajjar
+🔗 [LinkedIn](https://www.linkedin.com/in/gaurang-gajjar-504336242/)
+📧 gauranggajjar26@gmail.com
+
 
 ---
