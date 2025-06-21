@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-21T14:46:27 IST" name="EcommerceAutomationSuite" finished-at="2025-06-21T14:49:05 IST" duration-ms="157349">
+  <suite started-at="2025-06-21T18:13:42 IST" name="EcommerceAutomationSuite" finished-at="2025-06-21T18:15:20 IST" duration-ms="98881">
     <groups>
     </groups>
-    <test started-at="2025-06-21T14:46:27 IST" name="MultipleProductFlow" finished-at="2025-06-21T14:49:05 IST" duration-ms="157349">
+    <test started-at="2025-06-21T18:13:42 IST" name="MultipleProductFlow" finished-at="2025-06-21T18:15:20 IST" duration-ms="98881">
       <class name="testClasses.MultipleProductJourneyFlow">
-        <test-method is-config="true" signature="Reporting()[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:46:27 IST" name="Reporting" finished-at="2025-06-21T14:46:27 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="Reporting()[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:13:41 IST" name="Reporting" finished-at="2025-06-21T18:13:42 IST" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reporting -->
-        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:46:28 IST" name="Setup" finished-at="2025-06-21T14:46:35 IST" duration-ms="6897" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:13:42 IST" name="Setup" finished-at="2025-06-21T18:13:46 IST" duration-ms="3530" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ProductCatalogue(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:46:35 IST" name="ProductCatalogue" data-provider="sqlData" finished-at="2025-06-21T14:47:40 IST" duration-ms="65354" status="PASS">
+        <test-method signature="ProductCatalogue(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:13:46 IST" name="ProductCatalogue" data-provider="sqlData" finished-at="2025-06-21T18:14:19 IST" duration-ms="33032" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCatalogue -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:47:40 IST" name="tearDown" finished-at="2025-06-21T14:47:40 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:14:19 IST" name="tearDown" finished-at="2025-06-21T18:14:19 IST" duration-ms="236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:47:40 IST" name="Setup" finished-at="2025-06-21T14:47:45 IST" duration-ms="4185" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:14:19 IST" name="Setup" finished-at="2025-06-21T18:14:23 IST" duration-ms="3789" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ProductCatalogue(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:47:45 IST" name="ProductCatalogue" data-provider="sqlData" finished-at="2025-06-21T14:48:22 IST" duration-ms="37559" status="PASS">
+        <test-method signature="ProductCatalogue(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:14:23 IST" name="ProductCatalogue" data-provider="sqlData" finished-at="2025-06-21T18:14:49 IST" duration-ms="26358" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCatalogue -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:48:22 IST" name="tearDown" finished-at="2025-06-21T14:48:22 IST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:14:49 IST" name="tearDown" finished-at="2025-06-21T18:14:49 IST" duration-ms="221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:48:22 IST" name="Setup" finished-at="2025-06-21T14:48:26 IST" duration-ms="3911" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:14:49 IST" name="Setup" finished-at="2025-06-21T18:14:52 IST" duration-ms="2716" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ProductCatalogue(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:48:26 IST" name="ProductCatalogue" data-provider="sqlData" finished-at="2025-06-21T14:49:04 IST" duration-ms="38168" status="PASS">
+        <test-method signature="ProductCatalogue(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:14:52 IST" name="ProductCatalogue" data-provider="sqlData" finished-at="2025-06-21T18:15:20 IST" duration-ms="28254" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,7 +204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCatalogue -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:49:04 IST" name="tearDown" finished-at="2025-06-21T14:49:05 IST" duration-ms="282" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:15:20 IST" name="tearDown" finished-at="2025-06-21T18:15:20 IST" duration-ms="210" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,7 +215,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T14:49:05 IST" name="flushReport" finished-at="2025-06-21T14:49:05 IST" duration-ms="313" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testClasses.MultipleProductJourneyFlow@42a48628]" started-at="2025-06-21T18:15:21 IST" name="flushReport" finished-at="2025-06-21T18:15:21 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->

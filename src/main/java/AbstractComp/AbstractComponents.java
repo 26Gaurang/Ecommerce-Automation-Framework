@@ -52,7 +52,7 @@ public class AbstractComponents {
 			//String folderPath = "screenshots/" + folderName;
 		   // new File(folderPath).mkdirs(); // creates folder if not exists
 			
-			FileUtils.copyFile(src,new File("G:\\google photos\\Screens\\"+msg+".jpg"));
+			FileUtils.copyFile(src,new File("C:\\Users\\customer\\eclipse-workspace\\Ecommerce\\screenshots\\"+msg+".jpg"));
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
