@@ -47,8 +47,11 @@ src/
 - Run `testng.xml`
 
 📬 Author
+
 Gaurang Gajjar
+
 🔗 [LinkedIn](https://www.linkedin.com/in/gaurang-gajjar-504336242/)
+
 📧 gauranggajjar26@gmail.com
 
 
