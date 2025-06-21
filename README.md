@@ -62,7 +62,9 @@ EcommerceTestAutomation/
 📬 Author
 
 Gaurang Gajjar
+
 📧 gauranggajjar26@gmail.com
+
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/gaurang-gajjar-504336242/)
 
 ### 🚀 What’s Next?
