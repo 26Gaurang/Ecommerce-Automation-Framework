@@ -25,19 +25,6 @@ A complete Selenium TestNG framework for automating an e-commerce website using:
 2. Single Product Purchase Flow
 3. Multiple Product Purchase Flow
 
-## 📦 Folder Structure
-
-src/
-├── main/
-│ └── java/
-│ ├── pageObjects/
-│ └── abstractComponents/
-└── test/
-└── java/
-├── base/
-├── tests/
-└── utils/
-
 ## 📸 Reports & Screenshots
 - Screenshots captured after key actions
 - Extent reports generated post execution
