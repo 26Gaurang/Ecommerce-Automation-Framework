@@ -26,6 +26,7 @@ A complete Selenium TestNG framework for automating an e-commerce website using:
 3. Multiple Product Purchase Flow
 
 ## 📦 Folder Structure
+
 src/
 ├── main/
 │ └── java/
