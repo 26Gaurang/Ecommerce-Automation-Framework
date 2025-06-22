@@ -1,4 +1,4 @@
-# 🛍️ Ecommerce Automation Framework
+# 🛍️ Ecommerce Web Automation Framework - Selenium Java
 
 A complete Selenium TestNG framework for automating the end-to-end flow of an e-commerce website.
 
